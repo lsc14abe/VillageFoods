@@ -1,6 +1,3 @@
-a:hover over the links on the top to change color and also to be underlined/grow.
-
-
 section> div {
     this will only affect the direct decendant
 } 
