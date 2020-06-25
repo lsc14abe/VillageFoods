@@ -1,10 +1,13 @@
-section> div {
-    this will only affect the direct decendant
-} 
 
+only first button works - all need adjusting. The first one also doesn't look rightr
 nav needs to be position: fixed to stick to top
 
-change the main button to about us and the top links to produce,wedding,enquires and times only.
 the fixed nav when moving will include links to home and about us as well as the rest.
 
-animation (transition) to grow the links
+animation (transition) to grow the links?
+
+need to add the google maps img in footer
+
+change the button in the form to act like the rest
+
+create svg of logo
