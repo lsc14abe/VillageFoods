@@ -1,0 +1,38 @@
+/* ABOUT*/
+
+main .center{
+	flex-direction: column;
+	width: 60%;
+	text-align: center;
+}
+
+main div ul{
+	display: flex;
+	margin: 0;
+}
+
+main div ul li{
+	margin: 15px;
+	width: 33%;
+}
+
+main div ul li p{
+	margin: 10px;
+}
+
+.about-img{
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.boss{
+	background-image: url(/images/drawing-stickman-happy-white-stick-figure-11563583103bn9dwrdc5w.png);
+}
+.produce{
+	background-image: url(/images/cheese&chutney.jpg);
+}
+.wedding-cheese-cakes{
+	background-image: url(/images/cheese-wedding-cake.jpg);
+}

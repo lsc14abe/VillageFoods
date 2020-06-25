@@ -1,0 +1,42 @@
+/* Components */
+
+/* Shutter Out Horizontal */
+.hvr-shutter-out-horizontal {
+	width: 150px;
+	height: 2rem;
+	text-align: center;
+	border-radius: 3px;
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	background: var(--brand-color);
+	transition-property: color;
+	transition-duration: 0.3s;
+  }
+  .hvr-shutter-out-horizontal:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 3px;
+	background: #2098D1;
+	transform: scaleX(0);
+	transform-origin: 50%;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-out;
+  }
+  .hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+	color: black;
+  }
+  .hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
+	transform: scaleX(1);
+  }
+
+
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}

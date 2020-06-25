@@ -1,0 +1,22 @@
+/* FOOTER */
+footer{
+	position: relative;
+	/* background-color: var(--brand-color); */
+	/* color: var(--nav-color); */
+	height: 35vh;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer div{
+	width: 40%;
+}
+footer li{
+	margin: 10px 0;
+	/* color: var(--nav-color); */
+}
+
+footer li b{
+	color: black;
+}

@@ -1,0 +1,71 @@
+/* Form Styles */
+.enquires{
+    background-color: lightgrey;
+
+    /* background-color: var(--brand-color); */
+}
+
+.enquires p{
+    margin: 20px auto;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid black;
+}
+
+input,
+select,
+textarea {
+  border: black solid 1px;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-field label,
+.form-field input,
+.form-field select {
+  display: inline-block;
+}
+
+.form-field label {
+  width: 33%;
+}
+
+.form-field input,
+.form-field select {
+  width: 60%;
+}
+
+.form-field--textarea {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form-field--textarea label {
+  width: 33%;
+}
+
+.form-field--textarea textarea {
+  width: 60%;
+}
+
+.form-field__footer {
+  max-width: 60%;
+  margin-left: 33%;
+}
+
+.form-field__footer div {
+  margin-bottom: 20px;
+}
+
+input[type='submit'] {
+  background-color: var(--brand-color);
+  color: white;
+  border-radius: 4px;
+}
