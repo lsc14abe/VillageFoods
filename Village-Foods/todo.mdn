@@ -2,12 +2,12 @@
 only first button works - all need adjusting. The first one also doesn't look rightr
 nav needs to be position: fixed to stick to top
 
-the fixed nav when moving will include links to home and about us as well as the rest.
+***the fixed nav when moving will include links to home and about us as well as the rest.***
 
 animation (transition) to grow the links?
 
-need to add the google maps img in footer
-
 change the button in the form to act like the rest
 
-create svg of logo
+***create svg of logo****
+
+***Footer needs sorting out***
