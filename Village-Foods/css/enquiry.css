@@ -5,6 +5,10 @@
     /* background-color: var(--brand-color); */
 }
 
+.enquires > div{
+  margin: 10px;
+}
+
 .enquires p{
     margin: 20px auto;
 }
