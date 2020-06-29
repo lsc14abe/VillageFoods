@@ -1,7 +1,7 @@
 /* Components */
 
 /* Button Shutter Out Horizontal */
-.hvr-shutter-out-horizontal {
+.button {
 	width: 120px;
 	height: 2em;
 	padding: 0.5em;
@@ -13,8 +13,9 @@
 	background: var(--brand-color);
 	transition-property: color;
 	transition-duration: 0.3s;
-  }
-  .hvr-shutter-out-horizontal:before {
+}
+
+.button:before {
 	content: "";
 	position: absolute;
 	z-index: -1;
@@ -28,16 +29,17 @@
 	transform-origin: 50%;
 	transition-duration: 0.3s;
 	transition-timing-function: ease-out;
-  }
-  .hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
-	color: black
-  }
-  .hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
+}
+.button:hover, .button:focus, .button:active {
+	color: white;
+}
+
+.button:hover:before, .button:focus:before, .button:active:before {
 	transform: scaleX(1);
-  }
+}
 
 
-
+/* hero */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }

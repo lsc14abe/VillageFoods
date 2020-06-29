@@ -1,5 +1,6 @@
 
 only first button works - all need adjusting. The first one also doesn't look rightr
+
 nav needs to be position: fixed to stick to top
 
 ***the fixed nav when moving will include links to home and about us as well as the rest.***

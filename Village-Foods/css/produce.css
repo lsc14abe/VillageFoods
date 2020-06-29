@@ -7,6 +7,10 @@
 	color: #ffffff;
 }
 
+.description{
+	margin:10px 0;
+	width: 70%;
+}
 .description p{
-	margin: 50px auto;
+	margin: 35px auto;
 }

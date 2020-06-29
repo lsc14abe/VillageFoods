@@ -19,7 +19,7 @@ body {
 }
 
 a {
-	color:var(--brand-color);
+	color:var(--nav-color);
 	font-family: var(--body-font);
 	text-decoration: none;
 }
@@ -56,11 +56,6 @@ main, section{
 	padding: 10px;
 }
 
-.description{
-	width:70%;
-}
-.description p{
-	margin: 50px auto;
-}
+
 
 
