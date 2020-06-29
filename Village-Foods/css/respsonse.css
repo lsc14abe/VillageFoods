@@ -1,0 +1,16 @@
+/* TABLET */
+@media screen and (min-width:546px) and (max-width:769px){
+    /* MAIN */
+    main{
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+/* PHONE */
+@media screen and (max-width:545px){
+}
