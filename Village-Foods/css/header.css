@@ -7,12 +7,11 @@ nav{
 	position: relative;
 	padding: 0;
 	width: 100%;
-	height: 50px;
+	height: 8vh;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 	background-color: transparent;
-
 	color: var(--nav-color);
 }
 .navlist{
@@ -32,7 +31,6 @@ header div{
 }
 
 
-
 /* HEADER LINKS UNDERLINING */
 
 .nav-button {
@@ -41,24 +39,25 @@ header div{
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	position: relative;
 	overflow: hidden;
-  }
+}
 
-  .nav-button:before {
+.nav-button:before {
 	content: "";
 	position: absolute;
 	z-index: -1;
 	left: 51%;
 	right: 51%;
 	bottom: -10%;
-	background: #2098D1;
+	background: var(--nav-color);
 	height: 3px;
 	transition-property: left, right;
 	transition-duration: 0.3s;
 	transition-timing-function: ease-out;
-  }
+}
  
 
-  .nav-button:hover:before, .nav-button:focus:before, .nav-button:active:before {
+.nav-button:hover:before, .nav-button:focus:before, .nav-button:active:before {
 	left: 0;
 	right: 0;
-  }
+}
+

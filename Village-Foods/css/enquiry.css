@@ -69,7 +69,8 @@ textarea {
 }
 
 input[type='submit'] {
-  background-color: var(--brand-color);
+  background-color: var(--logo-color);
   color: white;
   border-radius: 4px;
+  
 }
