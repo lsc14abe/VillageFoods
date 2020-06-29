@@ -1,14 +1,10 @@
 
-only first button works - all need adjusting. The first one also doesn't look rightr
+only first button works - all need adjusting including the form one.
 
-nav needs to be position: fixed to stick to top
+***the fixed nav (position:fixed) when scrolling off of top. Hamburger menu. will include links to home and about us as well as the rest.***
+***add carosel to pictures of produce and wedding cakes ***
+*** Hamburger menu to be added to tablet and smaller screen sizes.***
 
-***the fixed nav when moving will include links to home and about us as well as the rest.***
+create svg of logo✅
 
-animation (transition) to grow the links?
-
-change the button in the form to act like the rest
-
-***create svg of logo****
-
-***Footer needs sorting out***
+Footer needs sorting out ✅

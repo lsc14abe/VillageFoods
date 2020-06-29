@@ -16,6 +16,7 @@
 body {
 	margin:0;
 	background-color: white;
+	text-align: justify;
 }
 
 a {
@@ -63,7 +64,7 @@ main, .enquires, .produce-content{
 	padding: 10px;
 }
 
-svg{
+picture{
 	margin:5px;
 }
 
