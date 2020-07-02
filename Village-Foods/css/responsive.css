@@ -16,8 +16,8 @@
         display: none;
     } 
     .burger{
-        display: block
-    }    
+        display: block;
+    }   
         
     main .center{
         width:100%;
@@ -39,17 +39,20 @@
     .wedding .info{
         flex-direction: column-reverse;
     }
+
+    /* MENU */
+
     menu {
         background-color: var(--logo-color);
         color: white;
-        height: 15%;
+        height: 12.5%;
         left: 0%;
         right: 100%;
         margin: 0;
         padding: 1.25rem;
         position: fixed;
         top: 0;
-        transition: all 0.4s ease-in-out;
+        transition: all 0.5s ease-in-out;
         visibility: hidden;
         width: 100%;
         z-index: 1;
@@ -60,23 +63,14 @@
         margin: 0;
         padding: 0;
         list-style: none;
-        display: wrap;
-        justify-content: space-evenly;
-
+        display: flex;
     }
     
     menu li {
       margin: 1rem;;
       font-size: 0.8rem;
     }
-    
-    menu a:hover {
-      border-bottom: 1px solid white;
-    }
-    
-    menu a:active {
-      border-bottom: 1px solid grey;
-    }
+
     
     .menu-open menu {
       visibility: visible;
@@ -101,7 +95,7 @@
     menu nav{
         height:100%;
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
     }
 }
