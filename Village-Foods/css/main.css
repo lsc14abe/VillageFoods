@@ -17,6 +17,7 @@ body {
 	margin:0;
 	background-color: white;
 	text-align: justify;
+	position: relative;
 }
 
 a {
@@ -68,5 +69,9 @@ picture{
 	margin:5px;
 }
 
-
+/* Menu */
+menu {
+	visibility: hidden;
+	display: none;
+}
 
