@@ -8,11 +8,8 @@
 	text-align: center;
 	border-radius: 3px;
 	transform: perspective(1px) translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	position: relative;
 	background: var(--logo-color);
-	transition-property: color;
-	transition-duration: 0.3s;
 }
 
 .button:before {
@@ -28,7 +25,7 @@
 	transform: scaleX(0);
 	transform-origin: 50%;
 	transition-duration: 0.3s;
-	transition-timing-function: ease-out;
+	transition-timing-function: ease-in-out;
 }
 .button:hover, .button:focus, .button:active {
 	color: var(--logo-color);
@@ -37,6 +34,8 @@
 .button:hover:before, .button:focus:before, .button:active:before {
 	transform: scaleX(1);
 }
+
+
 
 
 /* hero */
