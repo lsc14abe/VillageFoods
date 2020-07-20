@@ -8,9 +8,8 @@ header nav{
 	position: relative;
 	padding: 0;
 	width: auto;
-	height: 8vh;
+	height: 5vh;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	background-color: transparent;
 	color: var(--nav-color);
@@ -21,19 +20,21 @@ header nav{
 }
 
 .navlist li a{
-	margin: 25px;
+	margin: 20px;
 	color: #ffffff;
 }
 
-header > div{
+.page-header{
 	width: 100%;
-	position: relative;
+	padding:5px;
+	position: fixed;
+	left: 5px;
+	top: 5px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	transition: transform 0.4s;
 }
-
-
 
 .title{
 	height: 80%;
@@ -43,6 +44,21 @@ header > div{
 	align-items: center;
 	color: white;
 }
+
+/* page header/Nav on scroll */
+
+.scroll-down{
+	transform: translate3d(0, -100%, 0);
+}
+  
+.scroll-up{
+	transform: none;
+	background-color: var(--logo-color);
+	border-radius: 5px;
+	margin: auto;
+	z-index: 2;
+}
+  
 
 /* BURGER */
 

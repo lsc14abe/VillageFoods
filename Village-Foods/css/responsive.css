@@ -1,6 +1,6 @@
 /* TABLET & PHONE */
 
-@media screen and (max-width:786px){
+@media screen and (max-width:768px){
 
     main, .enquires, .produce-content, .wedding{
         flex-direction: column;

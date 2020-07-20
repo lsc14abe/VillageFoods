@@ -4,11 +4,10 @@ including the form one.
 
 ***the fixed nav (position:fixed) when scrolling off of top. 
 The nav needs to be hidden when scrolling down but reappear when
-scrolling up.
+scrolling up. - MAKE IT WORK ONLY ON LAPTOP NOT TABLET OR MOBILE
+
 Hamburger menu on responsive. will include links to home and 
-about us as well as the rest.***
+about us as well as the rest. - NEEDS TO CLOSE ONCE LINK CLICKED***
 
 *** add carosel to pictures of produce and wedding cakes ***
-
-*** Hamburger menu to be added to tablet and smaller screen sizes.***
 
