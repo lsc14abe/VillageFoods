@@ -47,6 +47,11 @@ header nav{
 
 /* page header/Nav on scroll */
 
+.hidden{
+	display: none;
+}
+
+
 .scroll-down{
 	transform: translate3d(0, -100%, 0);
 }
@@ -54,9 +59,10 @@ header nav{
 .scroll-up{
 	transform: none;
 	background-color: var(--logo-color);
-	border-radius: 5px;
 	margin: auto;
 	z-index: 2;
+	left: 0;
+	top: 0;
 }
   
 
@@ -67,7 +73,7 @@ header nav{
 	position: fixed;
 	padding: 5px;
 	right: 20px;
-	z-index: 20;
+	z-index: 2;
 	background-color: var(--logo-color);
 	border-radius: 10px;
 }
@@ -101,7 +107,7 @@ header nav{
 	height: 3px;
 	transition-property: left, right;
 	transition-duration: 0.3s;
-	transition-timing-function: ease-out;
+	transition-timing-function: ease-in-out;
 }
  
 

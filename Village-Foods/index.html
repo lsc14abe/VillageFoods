@@ -24,8 +24,8 @@
 			</svg>
 			<nav role="navigation">
 				<ul class="navlist">
-					<li><a class="nav-button" href="#home">Home</a></li>
-					<li><a class="nav-button" href="#about-us">About Us</a></li>
+					<li><a class="nav-button home hidden" href="#home">Home</a></li>
+					<li><a class="nav-button hidden" href="#about-us">About Us</a></li>
 					<li><a class="nav-button" href="#produce">Our Products</a></li>
 					<li><a class="nav-button" href="#wedding">Cheese Wedding Cakes</a></li>
 					<li><a class="nav-button" href="#enquires">Enquiries</a></li>
@@ -133,7 +133,8 @@
 				</p>
 				<p>
 					<!-- Info into the chutneys/jams that could be bought and how to order. -->
-					We are more than happy to take orders for large quantities or order any particular for our customers.</p>
+					We are more than happy to take orders for large quantities or order any particular for our customers.
+				</p>
 				<a class="button" href="#enquires">Contact us</a>
 			</div>
 		</div>
@@ -212,7 +213,6 @@
 				  <label for="enquiry">Type of enquiry</label>
 				  <select name="enquiry" id="enquiry">
 					<option value="" disabled selected>-Please select an option-</option>
-					<!-- placeholder not working - why not? -->
 					<option value="CWC">Cheese Wedding Cake</option>
 					<option value="Produce">Our Products</option>
 					<option value="Other">Other</option>
@@ -225,7 +225,7 @@
 				</div>
 		
 				<div class="form-field__footer">
-				  <input type="submit" value="Send enquiry" class="submit" />
+				  <input type="submit" value="Send enquiry" class="submit button" />
 				</div>
 			  </form>
 		</div>

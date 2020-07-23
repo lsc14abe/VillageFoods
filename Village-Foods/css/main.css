@@ -44,7 +44,7 @@ header{
 main, .enquires, .produce-content, .wedding{
 	flex-direction: column;
 	align-items: center;
-	padding: 20px 150px;
+	padding: 20px 100px;
 }
 
 .info{

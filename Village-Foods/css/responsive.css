@@ -1,7 +1,9 @@
 /* TABLET & PHONE */
 
 @media screen and (max-width:768px){
-
+    .hero{
+        height: 100vh;
+    }
     main, .enquires, .produce-content, .wedding{
         flex-direction: column;
         align-items: center;
@@ -9,6 +11,10 @@
 
     .description{
         width: 100%;
+    }
+
+    .description a {
+        margin: auto;
     }
 
     /* HEADER */
@@ -38,6 +44,32 @@
 
     .wedding .info{
         flex-direction: column-reverse;
+    }
+
+    /* ENQUIRY FORM */
+    .enquires{
+        text-align: justify;
+    }
+
+    .form-field, .form-field--textarea{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .form-field label, .form-field--textarea label{
+        margin: 0 0 10px 0;
+    }
+
+    .form-field label,
+    .form-field input,
+    .form-field select,
+    .form-field--textarea textarea {
+        width:100%;
+    }
+
+    .form-field__footer{
+        margin: 0 40%;
     }
 
     /* MENU */
@@ -107,6 +139,7 @@
         justify-content: start;
         align-items: center;
     }
+    
 }
 
 
@@ -122,6 +155,7 @@
         flex-direction: column;
         align-items: center;
     }
+
 }
 
 
@@ -144,6 +178,9 @@
         flex-direction: column;
         align-items: center;
     }
+
+
+
 
     /* footer */
 

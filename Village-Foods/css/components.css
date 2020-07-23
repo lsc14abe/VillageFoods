@@ -12,7 +12,7 @@
 	background: var(--logo-color);
 }
 
-.button:before {
+.button:before{
 	content: "";
 	position: absolute;
 	z-index: -1;
