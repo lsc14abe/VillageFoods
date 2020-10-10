@@ -1,7 +1,7 @@
 // Element
 
 // Get all links
-const links = document.querySelectorAll('header a');
+const links = document.querySelectorAll('a');
 
 // Event
 

@@ -1,13 +1,14 @@
-a:hover over the links on the top to change color and also to be underlined/grow.
 
+??? only first button works - all need adjusting 
+including the form one.
 
-section> div {
-    this will only affect the direct decendant
-} 
+***the fixed nav (position:fixed) when scrolling off of top. 
+The nav needs to be hidden when scrolling down but reappear when
+scrolling up
 
-nav needs to be position: fixed to stick to top
+Hamburger menu on responsive. will include links to home and 
+about us as well as the rest. - NEEDS TO CLOSE ONCE LINK CLICKED*** ALSO WANT BODY TO SHIFT OVER WITH
+MENU MOVE
 
-change the main button to about us and the top links to produce,wedding,enquires and times only.
-the fixed nav when moving will include links to home and about us as well as the rest.
+*** add carosel to pictures of produce and wedding cakes ***
 
-animation (transition) to grow the links
