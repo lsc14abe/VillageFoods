@@ -37,12 +37,16 @@ header nav{
 }
 
 .title{
-	height: 80%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	color: white;
+}
+
+.title p{
+	font-size: 1.2rem;
 }
 
 /* page header/Nav on scroll */

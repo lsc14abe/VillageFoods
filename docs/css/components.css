@@ -5,6 +5,7 @@
 	width: 120px;
 	height: 2em;
 	padding: 0.5em;
+	margin: 1rem;
 	text-align: center;
 	border-radius: 3px;
 	transform: perspective(1px) translateZ(0);
