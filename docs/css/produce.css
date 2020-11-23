@@ -20,3 +20,8 @@
 	margin: 12.5px 0;
 }
 
+.description p:last-of-type{
+	margin: 12.5px 0 20px 0;
+}
+
+
