@@ -12,8 +12,8 @@ main div ul{
 }
 
 main div ul li{
-	margin: 15px;
-	width: 33%;
+	margin: 25px;
+	width: 30%;
 }
 
 
@@ -22,7 +22,7 @@ main div ul li p{
 }
 
 .about-img{
-	height: 50vh;
+	height: 60vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -30,11 +30,11 @@ main div ul li p{
 }
 
 .boss{
-	background-image: url(/docs/images/tomcabout.jpg);
+	background-image: url(/images/tomcabout.jpg);
 }
 .produce{
-	background-image: url(/docs/images/produceabout.jpg);
+	background-image: url(/images/produceabout.jpg);
 }
 .wedding-cheese-cakes{
-	background-image: url(/docs/images/cheese-wedding-cake.jpg);
+	background-image: url(/images/cheeseweddingcake3.jpg);
 }

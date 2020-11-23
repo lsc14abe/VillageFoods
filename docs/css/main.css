@@ -44,17 +44,23 @@ header{
 main, .enquires, .produce-content, .wedding{
 	flex-direction: column;
 	align-items: center;
-	padding: 20px 70px;
+	padding: 45px 70px;
 }
 
 .info{
 	height: 100%;
 	display: flex;
 	align-items: center;
+	justify-content: space-evenly;
 }
 
-.info-img{
-	width: 40vw;
+.info-img-cheese{
+	height: 45vh;
+	padding: 10px;
+}
+
+.info-img-cake{
+	height: 50vh;
 	padding: 10px;
 }
 
