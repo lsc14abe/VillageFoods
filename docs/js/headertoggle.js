@@ -1,6 +1,4 @@
 const nav = document.getElementById("navbar");
-// const homeButton = document.getElementsByClassName("home")
-// const aboutUsButton = document.getElementsByClassName("about-us")
 const bodyTog = document.body
 const scrollUp = "scroll-up";
 const scrollDown = "scroll-down";
